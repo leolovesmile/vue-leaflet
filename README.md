@@ -1,12 +1,11 @@
-# vue-leaflet
+# leaflet for vue 3
 
-Vue-leaflet, written and compatible with Vue 3!
+This library is based on the project [vue-leaflet](https://github.com/vue-leaflet/vue-leaflet/issues). I forked that repository on 2021-06-03, because that I am afraid that I need to change/add some components and I need do releases frequently.
 
-This is a Beta version! And may yet be instable! If you want to help, please reach out in an
-[issue](https://github.com/vue-leaflet/vue-leaflet/issues) or on [discord](https://discord.gg/uVZAfUf).
+I keep the LICENSE untouched and change the name of this library.
+
 
 ## What Works:
-
 - LCircle
 - LCircleMarker
 - LControl
@@ -32,11 +31,11 @@ This is a Beta version! And may yet be instable! If you want to help, please rea
 
 ## Installation
 
-`yarn add @vue-leaflet/vue-leaflet`
+`yarn add @leolovesmile/leaflet4vue`
 
 or
 
-`npm i -D @vue-leaflet/vue-leaflet`
+`npm i -D @leolovesmile/leaflet4vue`
 
 ## Usage
 
