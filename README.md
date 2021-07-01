@@ -40,7 +40,7 @@ or
 ## Usage
 
 Until the complete documentation is ready, please check the
-[component playground](https://github.com/vue-leaflet/vue-leaflet/tree/master/src/playground/views) examples or the
+[component playground](https://github.com/leolovesmile/vue-leaflet/tree/master/src/playground/views) examples or the
 [demo project](https://github.com/vue-leaflet/vue3-demo-project/blob/master/src/App.vue) for usage with Vue 3.
 Most component props mimic the vanilla [Leaflet options](https://leafletjs.com/reference-1.7.1.html) as closely as
 possible, and generally remain the same as in their [Vue2Leaflet counterparts](https://vue2-leaflet.netlify.app/components/).
@@ -65,7 +65,7 @@ To avoid these issues, import any Leaflet methods asynchronously in response to 
 // DON'T load Leaflet components here!
 // Its CSS is needed though, if not imported elsewhere in your application.
 import "leaflet/dist/leaflet.css"
-import { LMap, LGeoJson } from "@vue-leaflet/vue-leaflet";
+import { LMap, LGeoJson } from "@leolovesmile/leaflet4vue";
 
 export default {
   components: {
